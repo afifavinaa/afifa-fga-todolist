@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.jumbotroon {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  background-image: linear-gradient(to bottom right, #64289c, #deaafc);
+  padding: 30px;
+}
+
+.jumbotroon h1 {
+  color: #ffffff,
+}
+
+.jumbotroon .form {
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.jumbotroon .form input {
+  border: none;
+  width: 300px;
+  padding: 5px;
+  margin-right: 3px;
+}
+
+.jumbotroon .form .btn-submit {
+  border: none;
+  background-color: rgb(4, 234, 0);
+  padding: 10px;
+  border-radius: 4px;
+  color: #ffffff;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #000000;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.card .text {
+  flex: 3;
+  padding-left: 3px;
+}
+
+.button-action {
+  flex: 1;
+}
+
+.btn-edit {
+  border: none;
+  background-color: rgb(61, 96, 255);
+  padding: 10px;
   color: white;
+  border-radius: 5px;
+  margin: 2px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-delete {
+  border: none;
+  background-color: red;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  margin: 2px;
 }
